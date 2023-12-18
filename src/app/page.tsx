@@ -10,11 +10,7 @@ export default function Home(): ReactNode {
   return (
     <main>
       <GridWithImage src={image} alt="Luciano Adamczuk walking up the stairs">
-        <BoxText
-          subtitle="Front End Developer"
-          title="Luciano Adamczuk"
-          text="Being part of the IT industry"
-        />
+        <BoxText subtitle="Front End Developer" title="Luciano Adamczuk" />
       </GridWithImage>
     </main>
   );

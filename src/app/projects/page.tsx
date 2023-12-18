@@ -12,11 +12,7 @@ export default function page(): React.ReactNode {
   return (
     <main>
       <GridWithImage src={image} alt="Me posing in the street">
-        <BoxText
-          subtitle="Check what i do"
-          title="Projects"
-          text="The best way to learn is doing"
-        />
+        <BoxText subtitle="The best way to learn is doing" title="Projects" />
 
         <div className=" h-80 overflow-y-scroll">
           <List display={myProjects} />

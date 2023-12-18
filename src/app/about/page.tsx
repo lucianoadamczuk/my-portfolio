@@ -9,11 +9,7 @@ export default function page(): React.ReactNode {
   const image = `/about/${device}.webp`;
   return (
     <GridWithImage src={image} alt="A Profile photo of Luciano Adammczuk">
-      <BoxText
-        subtitle="Let is meet us"
-        title="About Me"
-        text="Who and how i am"
-      />
+      <BoxText subtitle="Let me introduce myself" title="About Me" />
 
       <CarouselAbout />
     </GridWithImage>

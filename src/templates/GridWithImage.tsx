@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React, { type ReactElement, type ReactNode } from "react";
 
@@ -13,7 +14,9 @@ export default function GridWithImage({
 }: Props): ReactElement {
   return (
     <section className=" h-screen relative grid lg:grid-cols-2">
-      <article className=" container">{children}</article>
+      <article className=" container py-10 grid grid-cols-1 items-center">
+        {children}
+      </article>
       <article className=" absolute inset-0 lg:relative -z-10">
         <Image fill src={src} alt={alt} className=" object-cover opacity-30" />
       </article>

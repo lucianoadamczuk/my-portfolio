@@ -1,8 +1,12 @@
+"use client";
+import { ContextDevice } from "@/contexts";
 import { BoxText, GridWithImage } from "@/templates";
-import React, { type ReactNode } from "react";
+import React, { useContext, type ReactNode } from "react";
 
 export default function Home(): ReactNode {
-  const image = `/home/home-desktop.webp`;
+  const { device } = useContext(ContextDevice);
+  const image = `/home/${device}.webp`;
+
   return (
     <main>
       <GridWithImage src={image} alt="Luciano Adamczuk walking up the stairs">

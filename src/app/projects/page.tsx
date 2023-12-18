@@ -1,0 +1,27 @@
+"use client";
+import React, { useContext } from "react";
+import { List } from "@/components/ui";
+import { myProjects } from "@/contents/projects";
+import { BoxText, GridWithImage } from "@/templates";
+import { ContextDevice } from "@/contexts";
+
+export default function page(): React.ReactNode {
+  const { device } = useContext(ContextDevice);
+  const image = `/projects/${device}.webp`;
+
+  return (
+    <main>
+      <GridWithImage src={image} alt="Me posing in the street">
+        <BoxText
+          subtitle="Check what i do"
+          title="Projects"
+          text="The best way to learn is doing"
+        />
+
+        <div className=" h-80 overflow-y-scroll">
+          <List display={myProjects} />
+        </div>
+      </GridWithImage>
+    </main>
+  );
+}

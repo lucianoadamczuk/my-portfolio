@@ -1,7 +1,7 @@
-export const routes = [
-  { name: "home", path: "/" },
-  { name: "projects", path: "/projects" },
-  { name: "about", path: "/about" },
-  { name: "skills", path: "/skills" },
-  { name: "contact", path: "/contact" },
-];
+export const routes = {
+  home: { name: "home", path: "/" },
+  projects: { name: "projects", path: "/projects" },
+  about: { name: "about", path: "/about" },
+  skills: { name: "skills", path: "/skills" },
+  contact: { name: "contact", path: "/contact" },
+};

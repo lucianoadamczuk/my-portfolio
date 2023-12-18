@@ -6,7 +6,7 @@ export const myProjects = [
     website: "genaro-pedrazzoli.netlify.app/",
     github: "https://github.com/lucianoadamczuk/genaro-pedrazzoli",
     technologies: ["React", "React-Router-Dom", "Photoshop", "Framer-Motion"],
-    images: [""],
+    image: [""],
   },
   {
     name: "Netflix Replica",
@@ -22,7 +22,7 @@ export const myProjects = [
       "Swiper",
       "TypeScript",
     ],
-    images: [""],
+    image: [""],
   },
   {
     name: "Go to Egypt",
@@ -38,7 +38,7 @@ export const myProjects = [
       "Framer-Motion",
       "Swiper",
     ],
-    images: [""],
+    image: [""],
   },
   {
     name: "Duolingo Replica",
@@ -47,7 +47,7 @@ export const myProjects = [
     website: "https://lucianoadamczuk.github.io/duolingo-replica/",
     github: "https://github.com/lucianoadamczuk/duolingo-replica",
     technologies: ["React", "Bootstrap", "Photoshop"],
-    images: [""],
+    image: [""],
   },
   {
     name: "eCommerce Coderhouse",
@@ -56,7 +56,7 @@ export const myProjects = [
     website: "https://ecommerce-gigamesh.netlify.app",
     github: "https://github.com/lucianoadamczuk/eCommerce",
     technologies: ["React", "Tailwind", "Framer Motion"],
-    images: [""],
+    image: [""],
   },
 
   {
@@ -66,7 +66,7 @@ export const myProjects = [
     website: "genaro-pedrazzoli.netlify.app/",
     github: "https://github.com/lucianoadamczuk/genaro-pedrazzoli",
     technologies: ["React", "React-Router-Dom", "Photoshop", "Framer-Motion"],
-    images: [""],
+    image: [""],
   },
   {
     name: "Netflix Replica",
@@ -82,7 +82,7 @@ export const myProjects = [
       "Swiper",
       "TypeScript",
     ],
-    images: [""],
+    image: [""],
   },
   {
     name: "Go to Egypt",
@@ -98,7 +98,7 @@ export const myProjects = [
       "Framer-Motion",
       "Swiper",
     ],
-    images: [""],
+    image: [""],
   },
   {
     name: "Duolingo Replica",
@@ -107,7 +107,7 @@ export const myProjects = [
     website: "https://lucianoadamczuk.github.io/duolingo-replica/",
     github: "https://github.com/lucianoadamczuk/duolingo-replica",
     technologies: ["React", "Bootstrap", "Photoshop"],
-    images: [""],
+    image: [""],
   },
   {
     name: "eCommerce Coderhouse",
@@ -116,7 +116,7 @@ export const myProjects = [
     website: "https://ecommerce-gigamesh.netlify.app",
     github: "https://github.com/lucianoadamczuk/eCommerce",
     technologies: ["React", "Tailwind", "Framer Motion"],
-    images: [""],
+    image: [""],
   },
 
   {
@@ -126,7 +126,7 @@ export const myProjects = [
     website: "genaro-pedrazzoli.netlify.app/",
     github: "https://github.com/lucianoadamczuk/genaro-pedrazzoli",
     technologies: ["React", "React-Router-Dom", "Photoshop", "Framer-Motion"],
-    images: [""],
+    image: [""],
   },
   {
     name: "Netflix Replica",
@@ -142,7 +142,7 @@ export const myProjects = [
       "Swiper",
       "TypeScript",
     ],
-    images: [""],
+    image: [""],
   },
   {
     name: "Go to Egypt",
@@ -158,7 +158,7 @@ export const myProjects = [
       "Framer-Motion",
       "Swiper",
     ],
-    images: [""],
+    image: [""],
   },
   {
     name: "Duolingo Replica",
@@ -167,7 +167,7 @@ export const myProjects = [
     website: "https://lucianoadamczuk.github.io/duolingo-replica/",
     github: "https://github.com/lucianoadamczuk/duolingo-replica",
     technologies: ["React", "Bootstrap", "Photoshop"],
-    images: [""],
+    image: [""],
   },
   {
     name: "eCommerce Coderhouse",
@@ -176,6 +176,6 @@ export const myProjects = [
     website: "https://ecommerce-gigamesh.netlify.app",
     github: "https://github.com/lucianoadamczuk/eCommerce",
     technologies: ["React", "Tailwind", "Framer Motion"],
-    images: [""],
+    image: [""],
   },
 ];

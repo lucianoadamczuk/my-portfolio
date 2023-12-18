@@ -13,7 +13,7 @@ export default function GridWithImage({
   alt,
 }: Props): React.ReactElement {
   return (
-    <section className=" h-screen relative lg:grid lg:grid-cols-2">
+    <section className=" w-full h-screen relative lg:grid lg:grid-cols-2">
       <article className=" container h-full pt-10 pb-28 flex flex-col gap-10 justify-center items-center backdrop-blur-sm ">
         {children}
       </article>

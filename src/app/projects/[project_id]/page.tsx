@@ -22,7 +22,6 @@ export default function page(): React.ReactNode {
         <BoxText
           subtitle={`There is no matches for ${param.project_id.toString()} `}
           title="Error searching"
-          text="Why do you not try with other project or URL?"
         />
 
         <Button href={routes.projects.path}>Go back</Button>

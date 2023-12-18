@@ -8,10 +8,8 @@ export default function Home(): ReactNode {
   const image = `/home/${device}.webp`;
 
   return (
-    <main>
-      <GridWithImage src={image} alt="Luciano Adamczuk walking up the stairs">
-        <BoxText subtitle="Front End Developer" title="Luciano Adamczuk" />
-      </GridWithImage>
-    </main>
+    <GridWithImage src={image} alt="Luciano Adamczuk walking up the stairs">
+      <BoxText subtitle="Front End Developer" title="Luciano Adamczuk" />
+    </GridWithImage>
   );
 }

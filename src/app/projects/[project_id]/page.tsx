@@ -16,7 +16,6 @@ export default function page(): React.ReactNode {
     (item) => item.name.replace(/\s+/g, "-").toLowerCase() === param.project_id,
   );
 
-  console.log(projectFound);
   if (projectFound === undefined) {
     return (
       <article className=" w-full h-screen container flex flex-col justify-center items-center gap-5 ">
@@ -32,7 +31,10 @@ export default function page(): React.ReactNode {
   }
 
   return (
-    <GridWithImage src={projectFound.image} alt="An image of the project">
+    <GridWithImage
+      src={projectFound.image}
+      alt="A representative image of the project"
+    >
       <article className=" px-5 py-10 backdrop-blur-md rounded-lg">
         <h5 className=" font-bold text-2xl"> {projectFound.name} </h5>
         <p> {projectFound.description} </p>

@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={` ${inter.className} bg-dark text-light`}>
         <Providers>
           {children}
-          <Navbar links={routes} />
+          <Navbar links={Object.values(routes)} />
         </Providers>
       </body>
     </html>

@@ -18,7 +18,12 @@ export default function GridWithImage({
         {children}
       </article>
       <article className=" absolute inset-0 lg:relative -z-10">
-        <Image fill src={src} alt={alt} className=" object-cover opacity-30" />
+        <Image
+          fill
+          src={src}
+          alt={alt}
+          className=" w-full h-full object-cover opacity-30"
+        />
         <section className="container h-full flex items-center "></section>
       </article>
     </section>

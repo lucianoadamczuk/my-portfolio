@@ -2,6 +2,7 @@
 import React, { useContext } from "react";
 import { ContextDevice } from "@/contexts";
 import { BoxText, GridWithImage } from "@/templates";
+import { CarouselAbout } from "@/components/others";
 
 export default function page(): React.ReactNode {
   const { device } = useContext(ContextDevice);
@@ -13,6 +14,8 @@ export default function page(): React.ReactNode {
         title="About Me"
         text="Who and how i am"
       />
+
+      <CarouselAbout />
     </GridWithImage>
   );
 }

@@ -35,7 +35,7 @@ export default function page(): React.ReactNode {
       src={projectFound.image}
       alt="A representative image of the project"
     >
-      <article className=" px-5 py-10 backdrop-blur-md rounded-lg">
+      <article>
         <h5 className=" font-bold text-2xl"> {projectFound.name} </h5>
         <p> {projectFound.description} </p>
 

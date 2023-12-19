@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
+import { motion } from "framer-motion";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,12 +9,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css/navigation";
 
 // import "./styles.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import { carousel } from "@/contents/about/carousel";
 
 export default function CarouselAbout(): React.ReactNode {
@@ -24,19 +25,24 @@ export default function CarouselAbout(): React.ReactNode {
           type: "fraction",
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        spaceBetween={30}
+        modules={[Pagination]}
         className="mySwiper w-full  "
       >
         <ul>
           {carousel.map((item) => (
             <SwiperSlide key={uuidv4()}>
-              <h6 className=" text-gray opacity-60 font-bold">
-                {item.title}:{" "}
-              </h6>
-              {item.text.map((item) => (
-                <li key={uuidv4()} className=" my-5 list-inside list-disc">
+              <h6 className=" text-gray opacity-60 font-bold">{item.title}</h6>
+              {item.text.map((item, index) => (
+                <motion.li
+                  initial={{ x: 50, opacity: 0 }}
+                  whileInView={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 1, delay: index * 0.3 }}
+                  key={uuidv4()}
+                  className=" my-5 list-inside list-disc"
+                >
                   {item}
-                </li>
+                </motion.li>
               ))}
             </SwiperSlide>
           ))}

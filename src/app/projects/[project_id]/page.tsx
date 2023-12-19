@@ -34,23 +34,31 @@ export default function page(): React.ReactNode {
       src={projectFound.image}
       alt="A representative image of the project"
     >
-      <article>
+      <article className="text-center lg:text-start">
         <h5 className=" font-bold text-2xl"> {projectFound.name} </h5>
         <p> {projectFound.description} </p>
 
         {/* pills with technologies */}
-        <div className=" my-5 flex flex-wrap gap-5">
+        <div className=" my-5 flex flex-wrap justify-center gap-5">
           {projectFound.technologies?.map((technology) => (
             <Pill key={technology}> {technology} </Pill>
           ))}
         </div>
 
         {/* icons */}
-        <div className=" flex justify-end gap-5">
-          <Link href={projectFound.github} target="_blank">
+        <div className=" mt-16 flex justify-center gap-10">
+          <Link
+            href={projectFound.github}
+            target="_blank"
+            className=" hover:scale-110"
+          >
             <IconGithub />
           </Link>
-          <Link href={projectFound.website} target="_blank">
+          <Link
+            href={projectFound.website}
+            target="_blank"
+            className=" hover:scale-110"
+          >
             <IconWeb />
           </Link>
         </div>

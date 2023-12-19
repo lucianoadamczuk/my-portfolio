@@ -1,6 +1,6 @@
 "use client";
 import { ContextDevice } from "@/contexts";
-import { BoxText, GridWithImage } from "@/templates";
+import { BoxHeader, GridWithImage } from "@/templates";
 import React, { useContext, type ReactNode } from "react";
 
 export default function Home(): ReactNode {
@@ -9,7 +9,10 @@ export default function Home(): ReactNode {
 
   return (
     <GridWithImage src={image} alt="Luciano Adamczuk walking up the stairs">
-      <BoxText subtitle="Front End Developer" title="Luciano Adamczuk" />
+      <BoxHeader
+        subtitle="Being part of the IT world"
+        title="Luciano Adamczuk"
+      />
     </GridWithImage>
   );
 }

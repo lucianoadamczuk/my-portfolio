@@ -4,7 +4,7 @@ interface Props {
 }
 export default function Pill({ children }: Props): ReactElement {
   return (
-    <div className=" px-2 py-1 bg-secondary text-xs rounded-2xl text-dark">
+    <div className=" px-2 py-1 bg-gradient-to-b from-secondary to bg-secondary-dark  text-xs rounded-2xl text-light">
       {children}
     </div>
   );

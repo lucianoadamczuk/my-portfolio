@@ -19,9 +19,13 @@ const config: Config = {
       gray: "#A6A6A6",
 
       primary: "#D96E11",
-      secondary: "#72DCF2",
+      "primary-dark": "#A14F08",
+
+      secondary: "#0887A1",
+      "secondary-dark": "#066578",
+
+      transparent: "transparent",
     },
-    extend: {},
   },
   plugins: [],
 };

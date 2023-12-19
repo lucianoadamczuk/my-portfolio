@@ -14,7 +14,7 @@ export default function GridWithImage({
 }: Props): React.ReactElement {
   return (
     <section className=" w-full h-screen relative lg:grid lg:grid-cols-2">
-      <article className=" container h-full pt-10 pb-28 flex flex-col gap-10 justify-center items-center backdrop-blur-sm ">
+      <article className=" container h-full pt-16 pb-24 flex flex-col gap-8 justify-center items-center backdrop-blur-sm ">
         {children}
       </article>
       <article className=" absolute inset-0 lg:relative -z-10">
@@ -22,7 +22,7 @@ export default function GridWithImage({
           fill
           src={src}
           alt={alt}
-          className=" w-full h-full object-cover opacity-30"
+          className=" w-full h-full object-cover opacity-10 lg:opacity-30"
         />
         <section className="container h-full flex items-center "></section>
       </article>

@@ -7,11 +7,11 @@ interface Props {
 }
 export default function List({ display }: Props): ReactElement {
   return (
-    <ul className=" divide-y-2">
+    <ul className=" divide-y-2 divide-secondary-dark">
       {display?.map((item) => (
         <div
           key={item.name}
-          className=" w-full p-3 cursor-pointer hover:bg-primary"
+          className=" w-full p-3 my-1 cursor-pointer hover:bg-gradient-to-b hover:from-secondary hover:to-secondary-dark active:bg-secondary "
         >
           <Link
             href={

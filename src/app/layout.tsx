@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/common";
+import { Navbar, SocialMedias } from "@/components/common";
 import { routes } from "@/configs";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -23,6 +23,7 @@ export default function RootLayout({
       <body className={` ${inter.className} bg-dark text-light`}>
         <Providers>
           <main>{children}</main>
+          <SocialMedias />
           <Navbar links={Object.values(routes)} />
         </Providers>
       </body>

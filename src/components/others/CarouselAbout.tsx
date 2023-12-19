@@ -30,7 +30,9 @@ export default function CarouselAbout(): React.ReactNode {
         <ul>
           {carousel.map((item) => (
             <SwiperSlide key={uuidv4()}>
-              <h6 className=" font-bold">{item.title}: </h6>
+              <h6 className=" text-gray opacity-60 font-bold">
+                {item.title}:{" "}
+              </h6>
               {item.text.map((item) => (
                 <li key={uuidv4()} className=" my-5 list-inside list-disc">
                   {item}

@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // import "swiper/css/navigation";
 
-// import "./styles.css";
+import "./CarouselAbout.css";
 
 // import required modules
 import { Pagination } from "swiper/modules";
@@ -27,7 +27,7 @@ export default function CarouselAbout(): React.ReactNode {
         navigation={true}
         spaceBetween={30}
         modules={[Pagination]}
-        className="mySwiper w-full  "
+        className="w-full CarouselAbout "
       >
         <ul>
           {carousel.map((item) => (
@@ -36,7 +36,7 @@ export default function CarouselAbout(): React.ReactNode {
               {item.text.map((item, index) => (
                 <motion.li
                   initial={{ x: 50, opacity: 0 }}
-                  whileInView={{ x: 0, opacity: 1 }}
+                  animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1, delay: index * 0.3 }}
                   key={uuidv4()}
                   className=" my-5 list-inside list-disc"

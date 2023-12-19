@@ -12,10 +12,12 @@ export default function page(): React.ReactNode {
   const image = `/contact/${device}.webp`;
   const data = [
     {
+      href: `tel:${configContact.phone}`,
       icon: <IconPhone />,
       text: configContact.phone,
     },
     {
+      href: `mailto:${configContact.email}`,
       icon: <IconEvelope />,
       text: configContact.email,
     },
@@ -29,10 +31,14 @@ export default function page(): React.ReactNode {
       <GridWithImage src={image} alt="Luciano Adamczuk tying his shoes laces">
         <BoxText subtitle="Time to work" title="Contact" />
         {data.map((item) => (
-          <div key={uuidv4()} className=" flex gap-3 flex-col items-center">
+          <a
+            href={item.href ?? item.href}
+            key={uuidv4()}
+            className=" flex gap-3 flex-col items-center"
+          >
             {item.icon}
             <p className=" text-sm"> {item.text} </p>
-          </div>
+          </a>
         ))}
       </GridWithImage>
       <PageNameAnimation text={routes.contact.name} />

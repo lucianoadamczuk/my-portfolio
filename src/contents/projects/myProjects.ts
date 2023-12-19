@@ -1,9 +1,18 @@
 export const myProjects = [
   {
+    name: "Bibiana Garcia",
+    description:
+      "Bibiana leverages her expertise to craft personalized massage experiences that extend beyond the physical, addressing emotional and mental aspects as well. With a patient-centered approach and a passion for contributing to holistic care, we decided to enhance her work with a website adorned in serene colors that convey peace and well-being.",
+    website: "https://bibiana-garcia.netlify.app",
+    github: "https://github.com/lucianoadamczuk/bibiana-garcia",
+    technologies: ["React", "Photoshop", "Framer-Motion"],
+    image: "/projects/myProjects/bibiana-garcia.jpg",
+  },
+  {
     name: "Genaro Pedrazzoli",
     description:
       "My client is an influencer and personal trainer and he is really active in social medias like Youtube and Instagram. That is why we needed to optimize his services. How? Creating a web site with his information, products and activities.",
-    website: "genaro-pedrazzoli.netlify.app/",
+    website: "https://genaro-pedrazzoli.netlify.app/",
     github: "https://github.com/lucianoadamczuk/genaro-pedrazzoli",
     technologies: ["React", "React-Router-Dom", "Photoshop", "Framer-Motion"],
     image: "/projects/myProjects/genaro-pedrazzoli.jpg",

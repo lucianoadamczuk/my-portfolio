@@ -21,7 +21,9 @@ export default function RootLayout({
 }): ReactNode {
   return (
     <html lang="en">
-      <body className={` ${inter.className} bg-dark text-light`}>
+      <body
+        className={` ${inter.className} bg-dark text-light scrollbar-thin scrollbar-track-dark scrollbar-thumb-secondary-dark`}
+      >
         <Providers>
           <main>{children}</main>
           <SocialMedias />

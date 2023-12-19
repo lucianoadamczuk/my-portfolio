@@ -1,4 +1,5 @@
 "use client";
+import { FadeIn } from "@/animations";
 import Image from "next/image";
 import React, { type ReactNode } from "react";
 
@@ -17,15 +18,15 @@ export default function GridWithImage({
       <article className=" container h-full pt-16 pb-24 flex flex-col gap-8 justify-center items-center backdrop-blur-sm ">
         {children}
       </article>
-      <article className=" absolute inset-0 lg:relative -z-10">
+      <FadeIn className=" absolute inset-0 lg:relative -z-10">
         <Image
           fill
           src={src}
           alt={alt}
-          className=" w-full h-full object-cover opacity-10 lg:opacity-30"
+          className=" w-full h-full object-cover opacity-20 lg:opacity-60"
         />
         <section className="container h-full flex items-center "></section>
-      </article>
+      </FadeIn>
     </section>
   );
 }

@@ -5,9 +5,9 @@ import { BoxText, GridWithImage } from "@/templates";
 import { useParams } from "next/navigation";
 import { myProjects } from "@/contents/projects/index";
 import { Button, Pill } from "@/components/ui";
-
 import { routes } from "@/configs";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function page(): React.ReactNode {
   const param = useParams();
@@ -35,13 +35,20 @@ export default function page(): React.ReactNode {
       alt="A representative image of the project"
     >
       <article className="text-center lg:text-start">
-        <h5 className=" font-bold text-2xl"> {projectFound.name} </h5>
+        <h5 className=" font-bold text-3xl"> {projectFound.name} </h5>
         <p> {projectFound.description} </p>
 
         {/* pills with technologies */}
         <div className=" my-5 flex flex-wrap justify-center gap-5">
-          {projectFound.technologies?.map((technology) => (
-            <Pill key={technology}> {technology} </Pill>
+          {projectFound.technologies?.map((technology, index) => (
+            <motion.div
+              key={technology}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: index * 0.1 }}
+            >
+              <Pill> {technology} </Pill>
+            </motion.div>
           ))}
         </div>
 

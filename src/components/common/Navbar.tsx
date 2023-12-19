@@ -23,7 +23,7 @@ export default function Navbar({ links }: Props): ReactElement {
           <Link
             key={link.path}
             href={link.path}
-            className={` hover:text-gray ${
+            className={` lg:hover:text-gray ${
               link.path === pathname ? "text-primary" : ""
             }`}
           >

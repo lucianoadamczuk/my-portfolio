@@ -1,4 +1,6 @@
 "use client";
+import { PageNameAnimation } from "@/animations";
+import { routes } from "@/configs";
 import { ContextDevice } from "@/contexts";
 import { BoxHeader, GridWithImage } from "@/templates";
 import React, { useContext, type ReactNode } from "react";
@@ -8,11 +10,14 @@ export default function Home(): ReactNode {
   const image = `/home/${device}.webp`;
 
   return (
-    <GridWithImage src={image} alt="Luciano Adamczuk walking up the stairs">
-      <BoxHeader
-        subtitle="Being part of the IT world"
-        title="Luciano Adamczuk"
-      />
-    </GridWithImage>
+    <>
+      <GridWithImage src={image} alt="Luciano Adamczuk walking up the stairs">
+        <BoxHeader
+          subtitle="Being part of the IT world"
+          title="Luciano Adamczuk"
+        />
+      </GridWithImage>
+      <PageNameAnimation text={routes.home.name} />
+    </>
   );
 }

@@ -1,5 +1,13 @@
 export const myProjects = [
   {
+    name: "Law Firm",
+    description:
+      "As WordPress is a highly demanded CMS in the industry, I decided to create a small, purely visual project based on a law firm.",
+    website: "lucianoadamczuk7a70cdc050.wordpress.com",
+    technologies: ["WordPress"],
+    image: "/projects/myProjects/law-firm.jpg",
+  },
+  {
     name: "Bibiana Garcia",
     description:
       "Bibiana leverages her expertise to craft personalized massage experiences that extend beyond the physical, addressing emotional and mental aspects as well. With a patient-centered approach and a passion for contributing to holistic care, we decided to enhance her work with a website adorned in serene colors that convey peace and well-being.",

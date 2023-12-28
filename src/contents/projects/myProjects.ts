@@ -3,7 +3,8 @@ export const myProjects = [
     name: "Law Firm",
     description:
       "As WordPress is a highly demanded CMS in the industry, I decided to create a small, purely visual project based on a law firm.",
-    website: "lucianoadamczuk7a70cdc050.wordpress.com",
+    website: "http://wwww.lucianoadamczuk7a70cdc050.wordpress.com",
+    github: undefined,
     technologies: ["WordPress"],
     image: "/projects/myProjects/law-firm.jpg",
   },

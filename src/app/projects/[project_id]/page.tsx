@@ -54,13 +54,16 @@ export default function page(): React.ReactNode {
 
         {/* icons */}
         <div className=" mt-16 flex justify-center gap-10">
-          <Link
-            href={projectFound.github}
-            target="_blank"
-            className=" hover:scale-110"
-          >
-            <IconGithub />
-          </Link>
+          {projectFound.github != null && (
+            <Link
+              href={projectFound.github}
+              target="_blank"
+              className=" hover:scale-110"
+            >
+              <IconGithub />
+            </Link>
+          )}
+
           <Link
             href={projectFound.website}
             target="_blank"

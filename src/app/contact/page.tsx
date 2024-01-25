@@ -34,10 +34,10 @@ export default function page(): React.ReactNode {
           <a
             href={item.href ?? item.href}
             key={uuidv4()}
-            className=" flex gap-3 flex-col items-center"
+            className=" flex gap-3 flex-col items-center hover:opacity-80"
           >
             {item.icon}
-            <p className=" text-sm"> {item.text} </p>
+            <p className=" opacity-60 text-sm"> {item.text} </p>
           </a>
         ))}
       </GridWithImage>

@@ -13,7 +13,7 @@ export default function BoxText({
 }: Props): ReactElement {
   return (
     <div className="w-full text-center ">
-      <h5 className=" text-sm tracking-widest"> {subtitle} </h5>
+      <h5 className=" text-sm tracking-widest opacity-40">{subtitle}</h5>
       <h1 className=" font-bold text-6xl ">{title}</h1>
       <small className=" text-xs tracking-[8px] text-light ">{text}</small>
       <div className=" scale-y-[-1] ">

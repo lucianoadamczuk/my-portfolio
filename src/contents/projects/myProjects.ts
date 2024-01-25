@@ -1,12 +1,19 @@
 export const myProjects = [
   {
-    name: "Law Firm",
+    name: "Gamesphere",
     description:
-      "As WordPress is a highly demanded CMS in the industry, I decided to create a small, purely visual project based on a law firm.",
-    website: "http://wwww.lucianoadamczuk7a70cdc050.wordpress.com",
-    github: undefined,
-    technologies: ["WordPress"],
-    image: "/projects/myProjects/law-firm.jpg",
+      "I created this project with the intention of practicing making requests to an API through query string parameters, and work in my skills with Next.js and Next UI.",
+    website: "https://adamczuk-gamesphere.netlify.app/",
+    github: "https://github.com/lucianoadamczuk/game-sphere",
+    technologies: [
+      "Next JS",
+      "Next UI",
+      "Tailwind",
+      "Tailwind Variants",
+      "TypeScript",
+      "Swiper JS",
+    ],
+    image: "/projects/myProjects/game-sphere.jpg",
   },
   {
     name: "Bibiana Garcia",

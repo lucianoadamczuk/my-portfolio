@@ -1,0 +1,15 @@
+.languageSwitcher {
+  width: fit-content;
+  z-index: 2;
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-md);
+  flex-direction: row;
+  gap: var(--space-sm);
+
+  & > div {
+    & > span {
+      cursor: pointer;
+    }
+  }
+}

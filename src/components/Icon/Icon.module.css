@@ -1,0 +1,14 @@
+.icon {
+  & svg {
+    width: 40px;
+    height: 40px;
+    color: var(--color-light);
+  }
+}
+
+.iconHover:hover {
+  & > svg {
+    transform: scale(0.9);
+    color: var(--color-secondary);
+  }
+}

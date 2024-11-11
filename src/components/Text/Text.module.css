@@ -1,0 +1,68 @@
+.dark {
+  color: var(--color-dark);
+}
+
+.gray {
+  color: var(--color-gray);
+}
+
+.light {
+  color: var(--color-light);
+}
+
+.primary {
+  background: linear-gradient(
+    to top,
+    var(--color-primary-dark),
+    var(--color-primary)
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.secondary {
+  color: var(--color-secondary);
+}
+
+/* ---------------------------------- sizes --------------------------------- */
+.sm {
+  font-size: var(--font-size-sm);
+}
+
+.md {
+  font-size: var(--font-size-md);
+}
+
+.lg {
+  font-size: var(--font-size-lg);
+}
+
+.xl {
+  font-size: var(--font-size-xl);
+}
+
+/* -------------------------------- families -------------------------------- */
+.title {
+  line-height: 100%;
+  font-family: var(--font-title);
+}
+
+/* --------------------------------- others --------------------------------- */
+.paragraphContainer {
+  gap: var(--space-md);
+}
+
+.text {
+  animation-name: fadeIn;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

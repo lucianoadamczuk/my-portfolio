@@ -1,0 +1,14 @@
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-lg);
+  margin-top: var(--space-lg);
+}
+
+.pillsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}

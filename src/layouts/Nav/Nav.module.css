@@ -1,0 +1,86 @@
+.nav {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+
+  .menu {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    z-index: 1;
+    transition: 0.8s cubic-bezier(0.23, 0.68, 0.595, -0.485);
+    border-radius: var(--rounded);
+    background-color: var(--color-gray);
+    overflow: hidden;
+
+    .linksContainer {
+      align-items: flex-start;
+      width: fit-content;
+
+      .link {
+        cursor: pointer;
+        color: var(--color-gray-dark);
+        font-size: clamp(6rem, 6rem + 5vw, 16rem);
+        line-height: 90%;
+        font-family: var(--font-title);
+      }
+
+      .link:hover {
+        color: var(--color-primary);
+      }
+    }
+  }
+
+  /* --------------------------------- button --------------------------------- */
+  .button {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    border: 0;
+    border: 5px solid var(--color-light);
+    border-radius: 100%;
+    background-color: var(--color-gray-dark);
+    aspect-ratio: 1/1;
+    width: 60px;
+  }
+
+  .button:hover {
+    border: 8px solid var(--color-light);
+  }
+
+  .button:active {
+    background-color: var(--color-secondary);
+  }
+}
+
+.linkEnter {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: linkEnter;
+}
+
+.linkLeave {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: linkLeave;
+}
+
+@keyframes linkEnter {
+  from {
+    transform: translateY(5vh);
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    transform: translateX(00px);
+    opacity: 1;
+  }
+}
+
+@keyframes linkLeave {
+  to {
+    transform: translateY(-5vh);
+    opacity: 0;
+    filter: blur(10px);
+  }
+}

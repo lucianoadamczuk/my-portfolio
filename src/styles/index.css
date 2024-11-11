@@ -1,0 +1,147 @@
+/* --------------------------------- colors --------------------------------- */
+:root {
+  /* base colors */
+  --color-light: #f2f2f2;
+  --color-dark: #262626;
+  --color-gray: #a6a6a6;
+  --color-gray-dark: #404040;
+
+  /* primary */
+  --color-primary: #f2385a;
+  --color-primary-dark: #8c2e40;
+
+  /* secondary */
+  --color-secondary: #e1b344;
+  --color-secondary-dark: #e1b344;
+}
+
+/* ------------------------------- font sizes ------------------------------- */
+:root {
+  --font-size-sm: 1.2rem;
+  --font-size-md: 1.6rem;
+  --font-size-lg: 2.6rem;
+  --font-size-xl: 8rem;
+}
+
+/* ------------------------------ font families ----------------------------- */
+
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url("/fonts/BebasNeue-Regular.ttf"), format(truetype);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("/fonts/Montserrat-Regular.ttf"), format(truetype);
+}
+
+:root {
+  --font-title: BebasNeue-Regular;
+  --font-base: Montserrat-Regular;
+}
+
+/* --------------------------------- spaces --------------------------------- */
+:root {
+  --space-sm: 5px;
+  --space-md: 15px;
+  --space-lg: 35px;
+  --space-xl: 55px;
+}
+
+/* --------------------------------- others --------------------------------- */
+:root {
+  --rounded: 4px;
+}
+
+/* ---------------------------------- reset --------------------------------- */
+* {
+  transition-duration: 0.1s;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-light);
+  max-width: 100vw;
+  height: 100%;
+  overflow: clip;
+  color: var(--color-light);
+  font-size: var(--font-size-md);
+  font-family: var(--font-base);
+  text-align: center;
+}
+
+section,
+article,
+div,
+main,
+aside {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p,
+span {
+  text-wrap: pretty;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root) {
+  animation: pageTransitionOld 0.5s linear forwards;
+}
+
+::view-transition-new(root) {
+  animation: pageTransitionNew 1s ease-out forwards;
+}
+
+@keyframes pageTransitionOld {
+  30% {
+    transform: scale(0.8);
+  }
+  60% {
+    transform: scale(0.8) translateY(0vh);
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(10px);
+    transform: scale(0.8) translateY(-120vh);
+  }
+}
+
+@keyframes pageTransitionNew {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,26 @@
+.main {
+  gap: var(--space-xl);
+  padding: var(--space-md);
+  height: 100vh;
+
+  .button {
+    cursor: pointer;
+    border: 0;
+    border-radius: var(--rounded);
+    background: linear-gradient(
+      to top,
+      var(--color-primary-dark),
+      var(--color-primary)
+    );
+    padding: var(--space-md);
+    width: 100%;
+    max-width: 150px;
+    color: var(--color-light);
+    font-size: var(--font-size-md);
+    font-family: var(--font-title);
+  }
+
+  .button:hover {
+    transform: scale(0.9);
+  }
+}

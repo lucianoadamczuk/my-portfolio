@@ -1,0 +1,12 @@
+.projectBox {
+  margin: var(--space-sm) 0;
+  padding: var(--space-lg) var(--space-md);
+}
+
+.projectBox:hover {
+  background: linear-gradient(
+    to top,
+    var(--color-primary-dark),
+    var(--color-primary)
+  );
+}

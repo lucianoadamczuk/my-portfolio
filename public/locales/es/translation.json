@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "Luciano Adamczuk - Portafolio",
+    "description": "Soy un desarrollador frontend entusiasta, dedicado a crear experiencias web dinámicas y fáciles de usar. Mi pasión se centra en transformar ideas en interfaces cautivadoras, donde cada detalle cuenta para mejorar la interacción del usuario. Me motiva el desafío de lograr un balance entre diseño y funcionalidad, creando soluciones accesibles y efectivas. Estoy siempre en busca de aprender y crecer, aportando ideas frescas y una ética de trabajo sólida para generar un impacto positivo y duradero en cada proyecto."
+  },
+
+  "routes": [
+    { "name": "Inicio", "href": "" },
+    { "name": "Acerca", "href": "about-me" },
+    { "name": "Proyectos", "href": "projects" },
+    { "name": "Contacto", "href": "contact" }
+  ],
+
+  "pageHome": {
+    "pageName": "Bienvenido",
+    "alt": "Foto de perfil",
+    "phrase": "crea • inspira • transforma • ",
+    "subtitle": "- Formando parte del mundo TI -",
+    "title": "Luciano Adamczuk",
+    "paragraph": "Desarrollador web"
+  },
+
+  "pageAboutMe": {
+    "pageName": "Un poco de mi vida",
+    "alt": "Yo leyendo un libro",
+    "title": "Acerca de mí",
+    "subtitle": "Permiteme presentarme",
+    "description": {
+      "title": "Introducción",
+      "paragraph": [
+        "Soy Luciano Alejandro Adamczuk, nacido el 19 de julio de 1996 en Buenos Aires, Argentina.",
+
+        "Me caracterizo por ser una persona alegre, sociable y de trato fácil. Desde que descubrí cómo fragmentos de código pueden transformarse en experiencias visuales, desarrollé una profunda pasión por la tecnología y decidí enfocarme en el desarrollo web.",
+
+        "Motivado por el deseo de crear interfaces intuitivas y atractivas, me esfuerzo en mejorar constantemente y en profundizar mi conocimiento en el mundo frontend. Me entusiasma la oportunidad de aprender y crecer en un equipo, aportando siempre ideas frescas y una actitud comprometida con cada proyecto."
+      ]
+    },
+
+    "philosophy": {
+      "title": "Mi filosofía",
+      "paragraph": [
+        "Creo en la honestidad, el análisis y la proyección como pilares en mi vida.",
+
+        "Me motiva adquirir habilidades que me permitan ser versátil, abordando cada desafío con realismo.",
+
+        "He aprendido de colegas y mentores, complementando siempre con aprendizaje propio. Para mí, el éxito se mide en la estabilidad y seguridad que puedo brindar a mi familia, integrando mi vida profesional y personal hacia ese propósito."
+      ]
+    },
+
+    "beyondTheCode": {
+      "title": "Más allá del código",
+      "paragraph": [
+        "- Amo leer, especialmente novelas, teología y filosofía, que me retan a ver la vida de nuevas formas.",
+
+        "- Bailar es una de mis pasiones; con años de experiencia, lo veo como una forma de expresión única.",
+
+        "- Entusiasta del gimnasio, siempre buscando superarme en cada deporte que practico.",
+
+        "- La música es parte de mí: guitarra, percusión y algo de canto para expresarme.",
+
+        "- Comida favorita: ¡Pizza! Siempre es un buen momento compartirla ¿o mejor ser egoista?.",
+
+        "- Siempre he soñado con volar, por la sensación de libertad y movimiento."
+      ]
+    }
+  },
+
+  "pageProjects": {
+    "pageName": "Mis creaciones",
+    "title": "Proyectos",
+    "subtitle": "Hacer es aprender",
+    "alt": "Foto frente al espejo"
+  },
+
+  "pageProjects/slug": {
+    "subtitle": "- proyecto -",
+    "alt": "Imagen representativa del proyecto",
+    "technologies": "Tecnologías usadas"
+  },
+
+  "pageNotFound": {
+    "title": "Ups, tenemos un error",
+    "paragraph": [
+      "Parece ser que la pagina no existe o hay un error en la URL",
+      "¡Pero tranquilo! Hay mucho más que ver"
+    ],
+    "button": "Inicio"
+  },
+
+  "pageContact": {
+    "pageName": "¡Hablemos!",
+    "alt": "Yo mirando al horizonte",
+    "title": "Contacto",
+    "subtitle": "Es momento de actuar"
+  },
+
+  "projects": [
+    {
+      "slug": "haku",
+      "title": "Haku",
+      "description": "Mi agencia de marketing digital, donde soy cofundador, diseñador y desarrollador web. Creamos estrategias digitales personalizadas para cada cliente."
+    },
+
+    {
+      "slug": "haus-inmobiliary",
+      "title": "Haus Inmobiliaria",
+      "description": "Un sitio inmobiliario innovador que ofrece un diseño moderno y una experiencia de usuario intuitiva para facilitar la búsqueda de propiedades."
+    },
+
+    {
+      "slug": "church-i18n",
+      "title": "Church i18n",
+      "description": "Un sitio web multilingüe que conecta comunidades de fe alrededor del mundo, permitiendo a las iglesias alcanzar a sus congregaciones globalmente."
+    },
+
+    {
+      "slug": "futura-encode-university",
+      "title": "Futura Encode University",
+      "description": "Una landing page moderna y funcional para una universidad virtual, con diseño intuitivo y elementos responsivos que mejoran la accesibilidad."
+    },
+
+    {
+      "slug": "bibiana-garcia",
+      "title": "Bibiana García",
+      "description": "Un portafolio digital para Bibiana García, que destaca su trabajo como masoterapeuta, mostrando su enfoque holístico y personalizado en cada sesión."
+    },
+
+    {
+      "slug": "genaro-pedrazzoli",
+      "title": "Genaro Pedrazzoli",
+      "description": "Exploramos el trabajo de Genaro como entrenador personal y su impacto como influencer, creando una plataforma que refleja su estilo único de trabajo."
+    },
+
+    {
+      "slug": "netflix-replica",
+      "title": "Netflix Replica",
+      "description": "Una réplica de Netflix que replica la experiencia de usuario y las funcionalidades esenciales de la plataforma de streaming más popular."
+    },
+
+    {
+      "slug": "go-to-egypt",
+      "title": "Go to Egypt",
+      "description": "Un sitio de viajes que invita a explorar Egipto, presentando su cultura única, historia fascinante y las mejores atracciones turísticas."
+    },
+
+    {
+      "slug": "duolingo-replica",
+      "title": "Duolingo Replica",
+      "description": "Una réplica de Duolingo, la plataforma de aprendizaje de idiomas, con un enfoque interactivo y lúdico para facilitar el aprendizaje."
+    },
+
+    {
+      "slug": "ecommerce-gilgamesh",
+      "title": "Ecommerce Gilgamesh",
+      "description": "Un sitio de comercio electrónico que ofrece una experiencia de compra fluida, destacando productos diversos en un diseño atractivo y fácil de usar."
+    },
+
+    {
+      "slug": "apple-replica",
+      "title": "Apple Replica",
+      "description": "Una réplica de la elegante landing page de Apple, diseñada para capturar la simplicidad y modernidad que caracteriza a la marca."
+    }
+  ],
+
+  "technologiesDescriptions": [
+    {
+      "name": "Next JS",
+      "description": "Next.js es un framework de React para el desarrollo de aplicaciones web rápidas y escalables. Ofrece funcionalidades como renderizado del lado del servidor, generación de sitios estáticos y rutas dinámicas."
+    },
+    {
+      "name": "CSS modules",
+      "description": "CSS Modules es una técnica para manejar estilos en proyectos web, donde cada archivo CSS se restringe solo al componente que lo importa, evitando conflictos de clases."
+    },
+    {
+      "name": "Typescript",
+      "description": "TypeScript es un superset de JavaScript que agrega tipado estático y características orientadas a objetos, lo que mejora la escalabilidad, la mantenibilidad y la seguridad del código."
+    },
+    {
+      "name": "i18n",
+      "description": "Internationalization (i18n) es el proceso de diseñar una aplicación para que pueda ser adaptada a diferentes idiomas y regiones sin necesidad de reestructurar el código."
+    },
+    {
+      "name": "Responsive Design",
+      "description": "Responsive Design es un enfoque de diseño web que asegura que las páginas web se vean bien en una variedad de dispositivos y tamaños de pantalla, utilizando técnicas como los media queries."
+    },
+    {
+      "name": "React Hook Form",
+      "description": "React Hook Form es una biblioteca para el manejo de formularios en aplicaciones React. Facilita la validación de formularios y la integración con el estado del formulario utilizando hooks."
+    },
+    {
+      "name": "UX UI",
+      "description": "UX (User Experience) y UI (User Interface) se refieren a la experiencia de usuario y la interfaz de usuario, respectivamente. El diseño UX/UI busca crear productos que sean fáciles de usar, accesibles y visualmente atractivos."
+    },
+    {
+      "name": "Adobe Illustrator",
+      "description": "Adobe Illustrator es una herramienta de diseño gráfico vectorial utilizada para crear logotipos, ilustraciones y otros gráficos complejos."
+    },
+    {
+      "name": "Tailwind CSS",
+      "description": "Tailwind CSS es un framework de CSS utilitario que permite crear interfaces personalizadas y modernas rápidamente con clases predefinidas que se aplican directamente a los elementos HTML."
+    },
+    {
+      "name": "Framer Motion",
+      "description": "Framer Motion es una biblioteca de animaciones para React que permite crear animaciones fluidas y complejas con un enfoque en la simplicidad y el rendimiento."
+    },
+    {
+      "name": "React",
+      "description": "React es una biblioteca de JavaScript para la construcción de interfaces de usuario, especialmente en aplicaciones de una sola página, utilizando un enfoque basado en componentes."
+    },
+    {
+      "name": "CSS",
+      "description": "CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para describir la presentación de un documento HTML, controlando el estilo visual y el layout de las páginas web."
+    },
+    {
+      "name": "Bootstrap",
+      "description": "Bootstrap es un framework de diseño web basado en HTML, CSS y JavaScript que facilita el desarrollo de páginas web responsivas y con una interfaz de usuario consistente."
+    },
+    {
+      "name": "SCSS",
+      "description": "SCSS (Sassy CSS) es una extensión de CSS que agrega características avanzadas como variables, anidación, mixins y herencia para facilitar la escritura y organización de los estilos."
+    },
+    {
+      "name": "Swiper",
+      "description": "Swiper es una biblioteca de JavaScript para crear carruseles y deslizadores táctiles y responsivos. Es ampliamente utilizada en aplicaciones web y móviles."
+    },
+    {
+      "name": "Adobe Photoshop",
+      "description": "Adobe Photoshop es un software de edición de imágenes utilizado principalmente para el diseño gráfico, la manipulación fotográfica y la creación de contenido visual."
+    }
+  ]
+}

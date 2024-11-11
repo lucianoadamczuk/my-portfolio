@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "Luciano Adamczuk - Portfolio",
+    "description": "I am an enthusiastic frontend developer, dedicated to creating dynamic and user-friendly web experiences. My passion lies in transforming ideas into captivating interfaces, where every detail matters to enhance user interaction. I'm motivated by the challenge of achieving a balance between design and functionality, creating accessible and effective solutions. I'm always eager to learn and grow, bringing fresh ideas and a solid work ethic to make a positive and lasting impact on each project."
+  },
+
+  "routes": [
+    { "name": "Home", "href": "" },
+    { "name": "About", "href": "about-me" },
+    { "name": "Projects", "href": "projects" },
+    { "name": "Contact", "href": "contact" }
+  ],
+
+  "pageHome": {
+    "pageName": "Welcome",
+    "alt": "Profile photo",
+    "phrase": "create • inspire • transform • ",
+    "subtitle": "- Being part of the IT world -",
+    "title": "Luciano Adamczuk",
+    "paragraph": "Web Developer"
+  },
+
+  "pageAboutMe": {
+    "pageName": "A bit of my life",
+    "alt": "Me reading a book",
+    "title": "About Me",
+    "subtitle": "Allow me to introduce myself",
+    "description": {
+      "title": "Introduction",
+      "paragraph": [
+        "I am Luciano Alejandro Adamczuk, born on July 19, 1996, in Buenos Aires, Argentina.",
+
+        "I am known for being cheerful, sociable, and easygoing. Ever since I discovered how code fragments can transform into visual experiences, I developed a deep passion for technology and decided to focus on web development.",
+
+        "Driven by the desire to create intuitive and attractive interfaces, I constantly strive to improve and deepen my knowledge in the frontend world. I am excited about the opportunity to learn and grow within a team, always bringing fresh ideas and a committed attitude to each project."
+      ]
+    },
+
+    "philosophy": {
+      "title": "My Philosophy",
+      "paragraph": [
+        "I believe in honesty, analysis, and projection as pillars in my life.",
+
+        "I am motivated to acquire skills that allow me to be versatile, tackling each challenge with realism.",
+
+        "I have learned from colleagues and mentors, always complementing with self-learning. For me, success is measured in the stability and security I can provide to my family, integrating my professional and personal life towards that purpose."
+      ]
+    },
+
+    "beyondTheCode": {
+      "title": "Beyond the Code",
+      "paragraph": [
+        "- I love reading, especially novels, theology, and philosophy, which challenge me to see life from new perspectives.",
+
+        "- Dancing is one of my passions; with years of experience, I see it as a unique form of expression.",
+
+        "- Gym enthusiast, always striving to push myself in every sport I engage in.",
+
+        "- Music is part of me: guitar, percussion, and a bit of singing to express myself.",
+
+        "- Favorite food: Pizza! It's always a good time to share it... or maybe be selfish?",
+
+        "- I've always dreamed of flying, for the feeling of freedom and movement."
+      ]
+    }
+  },
+
+  "pageProjects": {
+    "pageName": "My Creations",
+    "title": "Projects",
+    "subtitle": "Doing is learning",
+    "alt": "Photo in front of a mirror"
+  },
+
+  "pageProjects/slug": {
+    "subtitle": "- project -",
+    "alt": "Representative project image",
+    "technologies": "Technologies used"
+  },
+
+  "pageNotFound": {
+    "title": "Oops, we have an error",
+    "paragraph": [
+      "It seems the page doesn’t exist or there’s an error in the URL.",
+      "But don’t worry! There’s much more to see."
+    ],
+    "button": "Home"
+  },
+
+  "pageContact": {
+    "pageName": "Let's Talk!",
+    "alt": "Me looking at the horizon",
+    "title": "Contact",
+    "subtitle": "It’s time to act"
+  },
+
+  "projects": [
+    {
+      "slug": "haku",
+      "title": "Haku",
+      "description": "My digital marketing agency, where I am co-founder, designer, and web developer. We create customized digital strategies for each client."
+    },
+
+    {
+      "slug": "haus-inmobiliary",
+      "title": "Haus Real Estate",
+      "description": "An innovative real estate site that offers a modern design and an intuitive user experience to facilitate property searches."
+    },
+
+    {
+      "slug": "church-i18n",
+      "title": "Church i18n",
+      "description": "A multilingual website connecting faith communities around the world, enabling churches to reach their global congregations."
+    },
+
+    {
+      "slug": "futura-encode-university",
+      "title": "Futura Encode University",
+      "description": "A modern and functional landing page for a virtual university, with an intuitive design and responsive elements to enhance accessibility."
+    },
+
+    {
+      "slug": "bibiana-garcia",
+      "title": "Bibiana Garcia",
+      "description": "A digital portfolio for Bibiana Garcia, showcasing her work as a massage therapist and highlighting her holistic and personalized approach to each session."
+    },
+
+    {
+      "slug": "genaro-pedrazzoli",
+      "title": "Genaro Pedrazzoli",
+      "description": "We explore Genaro's work as a personal trainer and his impact as an influencer, creating a platform that reflects his unique work style."
+    },
+
+    {
+      "slug": "netflix-replica",
+      "title": "Netflix Replica",
+      "description": "A replica of Netflix, recreating the user experience and essential functionalities of the most popular streaming platform."
+    },
+
+    {
+      "slug": "go-to-egypt",
+      "title": "Go to Egypt",
+      "description": "A travel site inviting users to explore Egypt, presenting its unique culture, fascinating history, and top tourist attractions."
+    },
+
+    {
+      "slug": "duolingo-replica",
+      "title": "Duolingo Replica",
+      "description": "A replica of Duolingo, the language-learning platform, with an interactive and playful approach to make learning easier."
+    },
+
+    {
+      "slug": "ecommerce-gilgamesh",
+      "title": "Ecommerce Gilgamesh",
+      "description": "An e-commerce site offering a seamless shopping experience, highlighting a variety of products in an attractive and user-friendly design."
+    },
+
+    {
+      "slug": "apple-replica",
+      "title": "Apple Replica",
+      "description": "A replica of Apple’s elegant landing page, designed to capture the simplicity and modernity that characterizes the brand."
+    }
+  ],
+
+  "technologiesDescriptions": [
+    {
+      "name": "Next JS",
+      "description": "Next.js is a React framework for developing fast and scalable web applications. It offers features like server-side rendering, static site generation, and dynamic routing."
+    },
+    {
+      "name": "CSS Modules",
+      "description": "CSS Modules is a technique for managing styles in web projects, where each CSS file is scoped only to the component that imports it, preventing class conflicts."
+    },
+    {
+      "name": "TypeScript",
+      "description": "TypeScript is a superset of JavaScript that adds static typing and object-oriented features, enhancing code scalability, maintainability, and safety."
+    },
+    {
+      "name": "i18n",
+      "description": "Internationalization (i18n) is the process of designing an application so it can be adapted to different languages and regions without needing code restructuring."
+    },
+    {
+      "name": "Responsive Design",
+      "description": "Responsive Design is a web design approach that ensures web pages look good on a variety of devices and screen sizes by using techniques like media queries."
+    },
+    {
+      "name": "React Hook Form",
+      "description": "React Hook Form is a library for handling forms in React applications. It simplifies form validation and state management using hooks."
+    },
+    {
+      "name": "UX UI",
+      "description": "UX (User Experience) and UI (User Interface) refer to user experience and user interface, respectively. UX/UI design aims to create products that are easy to use, accessible, and visually appealing."
+    },
+    {
+      "name": "Adobe Illustrator",
+      "description": "Adobe Illustrator is a vector graphic design tool used to create logos, illustrations, and other complex graphics."
+    },
+    {
+      "name": "Tailwind CSS",
+      "description": "Tailwind CSS is a utility-first CSS framework that allows for rapid creation of custom and modern interfaces with predefined classes applied directly to HTML elements."
+    },
+    {
+      "name": "Framer Motion",
+      "description": "Framer Motion is an animation library for React that enables smooth, complex animations with a focus on simplicity and performance."
+    },
+    {
+      "name": "React",
+      "description": "React is a JavaScript library for building user interfaces, particularly in single-page applications, using a component-based approach."
+    },
+    {
+      "name": "CSS",
+      "description": "CSS (Cascading Style Sheets) is a styling language used to describe the presentation of an HTML document, controlling the visual style and layout of web pages."
+    },
+    {
+      "name": "Bootstrap",
+      "description": "Bootstrap is a web design framework based on HTML, CSS, and JavaScript that makes it easy to develop responsive web pages with a consistent user interface."
+    },
+    {
+      "name": "SCSS",
+      "description": "SCSS (Sassy CSS) is an extension of CSS that adds advanced features like variables, nesting, mixins, and inheritance to make writing and organizing styles easier."
+    },
+    {
+      "name": "Swiper",
+      "description": "Swiper is a JavaScript library for creating responsive and touch-friendly carousels and sliders. It's widely used in both web and mobile applications."
+    },
+    {
+      "name": "Adobe Photoshop",
+      "description": "Adobe Photoshop is an image editing software mainly used for graphic design, photo manipulation, and creating visual content."
+    }
+  ]
+}

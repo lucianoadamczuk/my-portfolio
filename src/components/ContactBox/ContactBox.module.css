@@ -1,0 +1,9 @@
+.box,
+.boxLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-sm);
+  margin: var(--space-md) 0;
+}

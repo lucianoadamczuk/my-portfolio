@@ -1,0 +1,11 @@
+.pill {
+  cursor: pointer;
+  border-radius: var(--rounded);
+  background-color: var(--color-primary-dark);
+  padding: var(--space-sm);
+  width: fit-content;
+}
+
+.pill:hover {
+  background-color: var(--color-primary);
+}

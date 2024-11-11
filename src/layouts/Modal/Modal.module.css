@@ -1,0 +1,61 @@
+.portalContainer {
+  position: fixed;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+
+  .portal {
+    border-radius: var(--rounded);
+    background-color: var(--color-primary);
+    padding: var(--space-lg);
+    width: 90%;
+    max-width: 800px;
+    height: 90%;
+    max-height: 400px;
+
+    .button {
+      position: absolute;
+      top: var(--space-md);
+      right: var(--space-md);
+      cursor: pointer;
+      border: 0;
+      border-radius: 100%;
+      background-color: var(--color-primary-dark);
+      padding: var(--space-sm);
+    }
+  }
+}
+
+.openPortalContainer {
+  animation: openPortalContainer 0.1s ease-in both;
+}
+
+@keyframes openPortalContainer {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: rgba(111, 110, 110, 0.2);
+  }
+}
+
+.openPortal {
+  animation: openPortal 0.3s ease-in both;
+}
+
+@keyframes openPortal {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

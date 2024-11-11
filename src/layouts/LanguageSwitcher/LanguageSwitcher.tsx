@@ -9,12 +9,12 @@ export default function LanguageSwitcher({}: Props) {
     <div className={styles.languageSwitcher}>
       {languages.map((lang) => (
         <div key={lang} onClick={() => i18n.changeLanguage(lang)}>
-          {" "}
           <Text
             Tag="span"
             text={lang}
+            uppercase
             color={i18n.resolvedLanguage === lang ? "secondary" : "gray"}
-          />{" "}
+          />
         </div>
       ))}
     </div>

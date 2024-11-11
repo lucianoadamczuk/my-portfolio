@@ -16,6 +16,7 @@ export default function Text({
   size = "md",
   color = "light",
   family = "base",
+  uppercase,
   text,
 }: Props) {
   const familyClass = family ? styles[family] : "";
@@ -24,10 +25,10 @@ export default function Text({
   const classNames = `${styles.text} ${familyClass} ${colorClass} ${sizeClass}`;
 
   if (!Array.isArray(text)) {
-    return <Tag className={`${classNames} ${className}`}>{text}</Tag>;
+    return <Tag className={`${classNames} ${className}`} style={{textTransform: uppercase ? "uppercase" : "none"}}>{text}</Tag>;
   } else {
     return (
-      <div className={styles.paragraphContainer}>
+      <div className={styles.paragraphContainer} >
         {text.map((line) => (
           <Tag className={`${classNames} ${className}`} key={line}>
             {line}

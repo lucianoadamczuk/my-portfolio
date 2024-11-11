@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import styles from "./main.module.css";
+import styles from "./Main.module.css";
 import Nav from "../Nav/Nav";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 

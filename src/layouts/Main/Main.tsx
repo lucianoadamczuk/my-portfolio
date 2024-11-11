@@ -26,7 +26,7 @@ export default function Main({ pageName, children, src, alt }: Props) {
           <aside className={styles.aside}>
             <img src={src} alt={alt} className={styles.image} />
           </aside>
-          <Nav />
+          <Nav /> 
         </div>
       </div>
     </div>

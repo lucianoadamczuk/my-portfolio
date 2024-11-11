@@ -7,7 +7,7 @@
   .pageNameContainer {
     padding: var(--space-md);
     animation: animatePageNameView 1s ease-out 4s forwards;
-    min-height: 100vh;
+    min-height: 100dvh;
     overflow: hidden;
 
     .pageName {
@@ -28,7 +28,7 @@
   .contentContainer {
     animation: animateMainView 1s ease-out 4s forwards;
     padding: var(--space-md) var(--space-md) var(--space-xl) var(--space-md);
-    min-height: 100vh;
+    min-height: 100dvh;
 
     .content {
       border-radius: var(--rounded);
@@ -39,7 +39,6 @@
       .main {
         position: absolute;
         z-index: 1;
-        padding: 0 var(--space-sm);
         padding: 0 2vw;
         height: 100%;
       }
@@ -99,7 +98,7 @@
     transform: translateY(0);
   }
   to {
-    transform: translateY(-100vh);
+    transform: translateY(-100dvh);
   }
 }
 
@@ -110,17 +109,17 @@
     filter: blur(10px);
   }
   40% {
-    transform: translateY(-100vh) scale(0.8);
+    transform: translateY(-100dvh) scale(0.8);
     opacity: 1;
     filter: blur(10px);
   }
   70% {
-    transform: translateY(-100vh) scale(0.8);
+    transform: translateY(-100dvh) scale(0.8);
     opacity: 1;
     filter: blur(0);
   }
   100% {
-    transform: translateY(-100vh) scale(1);
+    transform: translateY(-100dvh) scale(1);
     opacity: 1;
     filter: blur(0);
   }

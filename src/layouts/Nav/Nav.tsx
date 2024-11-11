@@ -35,10 +35,8 @@ export default function Nav() {
   return (
     <nav className={styles.nav}>
       <div
-        className={styles.menu}
-        style={{
-          height: isOpen ? "calc(100vh - 70px)" : 0,
-        }}
+      className={styles.menu}
+        style={{height: isOpen? "90dvh" : "0"}}
       >
         <div className={styles.linksContainer}>
           {routes.map(({ name, href }, index) => (
